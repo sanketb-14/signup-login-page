@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup-Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cont2">
+      <form action="/" method="post">
+        <h2>Sign up with your email</h2>
+        <p>Already have an account?<a href="/login.html"> Sign in</a></p>
+        <div class="fname">
+          <label for="firstname">First name</label><br />
+          <input type="text" name="name" id="firstname" required />
+        </div>
+        <div class="lname">
+          <label for="lastname">Last name</label> <br />
+          <input type="text" name="name" id="lastname" required />
+        </div>
+        <div class="useremail">
+          <label for="email">Email address</label> <br />
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div class="userpassword">
+          <label for="password">Password</label> <br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            minlength="8"
+            required
+          />
+        </div>
+        <div class="cbox">
+          <input type="checkbox" name="checkbox" id="checkbox" />
+          <span class="checkmark"></span>
+          <label for="checkbox"
+            ><p>
+              I agree to the <a href="/">Terms of Service </a>and <br /><a
+                href="/"
+                >Privacy Policy</a
+              >
+            </p>
+          </label>
+        </div>
+        <div class="btn">
+          <button type="submit">Create account</button>
+        </div>
+        <div class="social-container">
+          <h5>OR <br>
+          Join Using Social Handle</h5>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+        
+      </form>
+    </div>
+  </body>
+</html>
